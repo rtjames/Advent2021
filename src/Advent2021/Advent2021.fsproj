@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Day.fs" />
+    <Compile Include="DepthCounter.fs" />
     <Compile Include="SubCommand.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
