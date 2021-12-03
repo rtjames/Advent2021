@@ -9,12 +9,9 @@ type SlidingWindowState =
 
 module DepthCounter =
 
-
     let countIncrease ((numOfIncreases, lastDepth): int * int) (currentDepth: int) =
             if currentDepth > lastDepth then ((numOfIncreases + 1), currentDepth)
             else (numOfIncreases, currentDepth)
-
-    
 
     let countIncreaseSlidingWindow (state: SlidingWindowState) currentDepth =
         let sumTriplet ((fst, snd, thd): int * int * int) =
