@@ -12,7 +12,7 @@ type Day =
 
 module Day =
     [<Literal>]
-    let LIB_PATH = "./../../lib/"
+    let LIB_PATH = @"C:\_Repos\Advent2021\lib"//./../../lib/"
 
     let createDate day month year =
         let date = new DateTime(year, month, day)
