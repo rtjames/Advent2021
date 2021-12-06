@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="DiagnosticCode.fs" />
     <Compile Include="Day.fs" />
     <Compile Include="DepthCounter.fs" />
     <Compile Include="SubCommand.fs" />
